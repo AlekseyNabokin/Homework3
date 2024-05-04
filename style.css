@@ -7,9 +7,14 @@
 	font-family: "Gilroy-Medium";
 	src: url("./font/Gilroy-Medium.woff2");
 }
+
 @font-face {
 	font-family: "Gilroy-Semibold";
 	src: url("./font/Gilroy-Semibold.woff2");
+}
+@font-face {
+	font-family: "Gilroy-Regular";
+	src: url("./font/Gilroy-Regular.woff2");
 }
 
 * {
@@ -66,13 +71,10 @@ a {
 	color: #f25822;
 }
 
-.main {
-	margin-bottom: 257px;
-}
-
 .mainContent {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 257px;
 }
 
 .mainContent__leftSide {
@@ -123,12 +125,139 @@ a {
 	cursor: pointer;
 }
 
-.footer {
-	margin-bottom: 100px;
-}
-
 .logos {
 	display: flex;
 	justify-content: center;
 	gap: 48px;
+	margin-bottom: 100px;
+}
+
+.cardList1 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 60px;
+	margin-bottom: 100px;
+}
+
+.card1 {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding: 40px 30px 25px;
+}
+
+.card1 img {
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.card1 h2 {
+	display: flex;
+	font-family: Gilroy-Bold;
+	font-size: 24px;
+	line-height: 28, 13px;
+	margin-bottom: 17px;
+}
+
+.card1 p {
+	color: #666666;
+	;
+	display: flex;
+	font-family: Gilroy-Regular;
+	font-size: 15px;
+	line-height: 22, 5px;
+	margin-bottom: 25px;
+}
+
+.card1 h3 {
+	font-family: Gilroy-Bold;
+	font-size: 11px;
+	line-height: 16, 5px;
+}
+
+.fon2 {
+	box-shadow: 15px 25px 56px 6px #0000000F;
+}
+
+.cardList2 {
+	background: #FAFAFA;
+	margin-bottom: 100px;
+}
+
+.cardText {
+	max-width: 682px;
+	margin: 0 auto;
+}
+
+.cardText h1 {
+	font-family: Gilroy-Bold;
+	font-size: 45px;
+	line-height: 52, 73px;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 19px;
+}
+
+.cardText p {
+	color: #666666;
+	display: flex;
+	font-family: Gilroy-Regular;
+	font-size: 16px;
+	line-height: 24px;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 30px;
+	align-items: center;
+	text-align: center;
+}
+
+.card2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.card2 img {
+	margin-bottom: 25px;
+}
+
+.card2 h2 {
+	font-family: Gilroy-Bold;
+	font-size: 24px;
+	line-height: 28, 13px;
+}
+
+.card2 p {
+	color: #AAAAAA;
+	font-family: Gilroy-Regular;
+	font-size: 15px;
+	line-height: 22, 5px;
+	padding: 22px 30px 39px;
+}
+
+.card2-btn {
+	color: #ffffff;
+	font-family: Gilroy-Bold;
+	font-size: 13px;
+	line-height: 19, 5px;
+	padding: 15px 40px;
+	border-radius: 35px;
+	background: #f25822;
+	border: none;
+	cursor: pointer;
+}
+
+.fon3 {
+	box-shadow: 15px 25px 56px 6px #0000000F;
 }
